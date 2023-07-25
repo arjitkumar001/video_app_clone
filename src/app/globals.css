@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menuIcon {
+  border-radius: 3px;
+  height: 35px;
+  padding: 5px 10px;
+  border: 1px solid transparent;
+}
+
+.menuIcon:hover {
+  background-color: #1f1717;
+  border: 1px solid #352525;
+}
+
+.mt-80 {
+  margin-top: 70px;
+}
+
+.home-Img {
+  transition: .1s;
+
+}
+
+.home-Img:hover {
+  transform: scale(1.09);
+}
+
+.img-tvshow {
+  width: auto;
+  padding: '5px 10px';
+  cursor: 'pointer';
+  transition: .5s;
+}
+
+.img-tvshow:hover {
+  transform: scale(1.04);
+}
+
+.model-body {
+  text-align: center;
+  padding: 5px;
+
+}
+
+.scroll-btn:hover .scroll-button {
+  background-color: #474242;
+  opacity: 0.5;
+  color: black;
+}
+
+.scroll-btn:hover .scroll-icon {
+  color: white;
+  opacity: 1;
+  z-index: 100;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: gray;
+  font-size: 14px;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+  color: #3b3bf3;
+}
+
+@media screen and (max-width:992px) {
+  .tvshow-mod-img {
+    width: auto;
+    height: auto;
+    padding: 5px;
+  }
+
+  .model-body {
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    border: none;
+    outline: none;
+  }
+
+  .tvshow-mod-img {
+    height: 450px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .tvshow-mod-img {
+    width: auto;
+    height: auto;
+    padding: 5px;
+  }
+
+  .model-body {
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+  }
+
+  .tvshow-mod-img {
+    height: 450px;
+    width: 100%;
+  }
+
+  .footer-img {
+    height: auto;
+    width: auto;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .tvshow-mod-img {
+    width: auto;
+    height: auto;
+    padding: 5px;
+  }
+
+  .model-body {
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+  }
+
+  .tvshow-mod-img {
+    height: 350px;
+    width: 100%;
+  }
+  .img-tvshow {
+    height: auto;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .tvshow-mod-img {
+    width: auto;
+    height: auto;
+  }
+
+  .model-body {
+    text-align: center;
+    width: 100%;
+  }
+
+  .tvshow-mod-img {
+    height: 350px;
+    width: 100%;
+  }
+ 
+  .img-tvshow {
+    height: auto;
+  }
+}
